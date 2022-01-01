@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="GameScene" prefHeight="422.0" prefWidth="1635.0" style="-fx-background-color: cyan; -fx-background-image: url('file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/sky1.jpg');" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchscene.NewController">
+    <children>
+        <ImageView fx:id="island" fitHeight="197.0" fitWidth="133.0" layoutX="67.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="islass" fitHeight="92.0" fitWidth="251.0" layoutX="202.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/islandassorted.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="isl4" fitHeight="112.0" fitWidth="108.0" layoutX="2841.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl4.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="isl6" fitHeight="197.0" fitWidth="211.0" layoutX="600.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island6.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="isl7" fitHeight="248.0" fitWidth="248.0" layoutX="768.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island7.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="orc" fitHeight="41.0" fitWidth="42.0" layoutX="821.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/orc.png" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="heroImg" fitHeight="48.0" fitWidth="52.0" layoutX="77.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/DangWillHero.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="chestClosed" fitHeight="45.0" fitWidth="58.0" layoutX="621.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreLabel" layoutX="335.0" layoutY="-7.0" prefHeight="92.0" prefWidth="200.0">
+         <font>
+            <Font name="Copperplate Gothic Light" size="37.0" />
+         </font></Label>
+      <ImageView fx:id="sword1" fitHeight="84.0" fitWidth="14.0" layoutX="66.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" rotate="271.0">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Sword1.png" />
+         </image></ImageView>
+      <ImageView fx:id="isl5" fitHeight="70.0" fitWidth="159.0" layoutX="1282.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="40.0" layoutX="1282.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl61" fitHeight="197.0" fitWidth="211.0" layoutX="1397.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="islass1" fitHeight="145.0" fitWidth="295.0" layoutX="972.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/islandassorted.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2092.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="isl9" fitHeight="150.0" fitWidth="200.0" layoutX="1552.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl10" fitHeight="150.0" fitWidth="200.0" layoutX="1848.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl11" fitHeight="150.0" fitWidth="200.0" layoutX="2113.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="197.0" fitWidth="485.0" layoutX="2348.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hammer" fitHeight="41.0" fitWidth="136.0" layoutX="100.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true" rotate="76.3">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/hammer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chestClosed1" fitHeight="45.0" fitWidth="58.0" layoutX="1570.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chestClosed2" fitHeight="45.0" fitWidth="58.0" layoutX="2580.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="40.0" layoutX="1872.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="40.0" layoutX="262.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="40.0" layoutX="495.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="2789.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Orc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="orc1" fitHeight="45.0" fitWidth="58.0" layoutX="383.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Orc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="orc11" fitHeight="45.0" fitWidth="58.0" layoutX="1937.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/Orc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl8" fitHeight="150.0" fitWidth="200.0" layoutX="383.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/isl8.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
